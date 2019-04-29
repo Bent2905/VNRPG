@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="license_exam_failed" xml:space="preserve">
+    <value>Has suspendido el examen teórico.</value>
+  </data>
+  <data name="license_drive_failed" xml:space="preserve">
+    <value>Has suspendido el examen práctico.</value>
+  </data>
+  <data name="player_has_identification" xml:space="preserve">
+    <value>Ya tienes la documentación en regla.</value>
+  </data>
+  <data name="player_not_identification_money" xml:space="preserve">
+    <value>Necesitas {0}$ para sacarte la documentación.</value>
+  </data>
+  <data name="player_has_medical_insurance" xml:space="preserve">
+    <value>Ya tienes un seguro médico vigente.</value>
+  </data>
+  <data name="player_not_medical_insurance" xml:space="preserve">
+    <value>No tienes ningún seguro médico.</value>
+  </data>
+  <data name="player_not_medical_insurance_money" xml:space="preserve">
+    <value>Necesitas {0}$ para sacarte el seguro médico.</value>
+  </data>
+  <data name="player_has_taxi_license" xml:space="preserve">
+    <value>Ya tienes una licencia de taxis.</value>
+  </data>
+  <data name="player_not_taxi_license_money" xml:space="preserve">
+    <value>Necesitas {0}$ para sacarte la licencia de taxis.</value>
+  </data>
+  <data name="player_no_fines" xml:space="preserve">
+    <value>No has seleccionado ninguna multa a pagar.</value>
+  </data>
+  <data name="player_not_fine_money" xml:space="preserve">
+    <value>Necesitas {0}$ para pagar tus multas.</value>
+  </data>
+  <data name="weapon_license_expired" xml:space="preserve">
+    <value>No tienes la licencia de armas vigente.</value>
+  </data>
+  <data name="player_cant_chat" xml:space="preserve">
+    <value>No puedes usar el chat dentro de la sala de selección de personaje.</value>
+  </data>
+  <data name="player_cant_command" xml:space="preserve">
+    <value>No puedes usar comandos dentro de la sala de selección de personaje.</value>
+  </data>
+  <data name="no_vehicles_near" xml:space="preserve">
+    <value>No tienes ningún vehículo cerca.</value>
+  </data>
+  <data name="not_in_vehicle" xml:space="preserve">
+    <value>No estás subido en ningún vehículo.</value>
+  </data>
+  <data name="not_vehicle_driving" xml:space="preserve">
+    <value>No estás conduciendo el vehículo.</value>
+  </data>
+  <data name="client_not_vehicle_driving" xml:space="preserve">
+    <value>El cliente debe estar en el asiento del conductor.</value>
+  </data>
+  <data name="not_vehicle_passenger" xml:space="preserve">
+    <value>No estás en el asiento del copiloto.</value>
+  </data>
+  <data name="carshop_spawn_occupied" xml:space="preserve">
+    <value>Todos los sitios de aparcamiento del concesionario están ocupados.</value>
+  </data>
+  <data name="not_in_carshop" xml:space="preserve">
+    <value>No estás en ningún concesionario.</value>
+  </data>
+  <data name="not_in_car_practice" xml:space="preserve">
+    <value>No estás haciendo el examen práctico de conducción.</value>
+  </data>
+  <data name="license_failed_not_in_vehicle" xml:space="preserve">
+    <value>Has suspendido el examen por no subir en el vehículo.</value>
+  </data>
+  <data name="car_license_achieved" xml:space="preserve">
+    <value>Ya tienes la licencia de turismos.</value>
+  </data>
+  <data name="no_character_selected" xml:space="preserve">
+    <value>No has seleccionado ningún personaje.</value>
+  </data>
+  <data name="not_in_vehicle_faction" xml:space="preserve">
+    <value>No perteneces a la misma facción que este vehículo.</value>
+  </data>
+  <data name="admin_vehicle" xml:space="preserve">
+    <value>Este vehículo pertenece a la administración.</value>
+  </data>
+  <data name="not_in_vehicle_job" xml:space="preserve">
+    <value>No tienes el trabajo necesario para acceder a este vehículo.</value>
+  </data>
+  <data name="not_car_keys" xml:space="preserve">
+    <value>No tienes las llaves de este vehículo.</value>
+  </data>
+  <data name="carshop_no_money" xml:space="preserve">
+    <value>Necesitas tener al menos {0}$ en el banco para comprar el vehículo.</value>
+  </data>
+  <data name="player_not_found" xml:space="preserve">
+    <value>El jugador objetivo no se encuentra conectado.</value>
+  </data>
+  <data name="player_not_dead" xml:space="preserve">
+    <value>El jugador objetivo no se encuentra inconsciente.</value>
+  </data>
+  <data name="player_not_state_faction" xml:space="preserve">
+    <value>No estás en ninguna facción estatal.</value>
+  </data>
+  <data name="player_job_state_faction" xml:space="preserve">
+    <value>No puedes acceder a este empleo estando en una facción estatal.</value>
+  </data>
+  <data name="radio_frequency_none" xml:space="preserve">
+    <value>No estás conectado a ninguna frecuencia de radio.</value>
+  </data>
+  <data name="player_not_police_faction" xml:space="preserve">
+    <value>No perteneces al departamento de policía.</value>
+  </data>
+  <data name="player_not_news_faction" xml:space="preserve">
+    <value>No perteneces a Weazel News.</value>
+  </data>
+  <data name="player_not_emergency_faction" xml:space="preserve">
+    <value>No perteneces al departamento de emergencias.</value>
+  </data>
+  <data name="player_not_police_emergency_faction" xml:space="preserve">
+    <value>No perteneces al departamento de policía ni al de emergencias.</value>
+  </data>
+  <data name="player_not_in_house" xml:space="preserve">
+    <value>No estás dentro de ninguna casa.</value>
+  </data>
+  <data name="player_not_house_owner" xml:space="preserve">
+    <value>No eres el propietario de esta casa.</value>
+  </data>
+  <data name="player_house_rented" xml:space="preserve">
+    <value>Ya estás viviendo de alquiler en una casa.</value>
+  </data>
+  <data name="house_not_buyable" xml:space="preserve">
+    <value>Esta casa no está en venta.</value>
+  </data>
+  <data name="house_not_rentable" xml:space="preserve">
+    <value>Esta casa no está en alquiler.</value>
+  </data>
+  <data name="house_already_rentable" xml:space="preserve">
+    <value>Esta casa ya está en alquiler.</value>
+  </data>
+  <data name="house_not_money" xml:space="preserve">
+    <value>No dispones del dinero necesario en tu cuenta bancaria para comprar esta casa.</value>
+  </data>
+  <data name="player_not_rent_money" xml:space="preserve">
+    <value>No dispones del dinero necesario en mano para pagar la fianza de alquiler.</value>
+  </data>
+  <data name="house_locked" xml:space="preserve">
+    <value>La casa está cerrada con llave.</value>
+  </data>
+  <data name="house_not_exists" xml:space="preserve">
+    <value>No se ha encontrado ninguna casa con ese identificador.</value>
+  </data>
+  <data name="house_occupied" xml:space="preserve">
+    <value>No se puede vender la casa ya que está ocupada.</value>
+  </data>
+  <data name="house_sell_generic" xml:space="preserve">
+    <value>Se ha producido un error en la venta de la casa. Comprueba que sigue a nombre de su dueño.</value>
+  </data>
+  <data name="money_amount_positive" xml:space="preserve">
+    <value>La cantidad debe ser mayor a 0$.</value>
+  </data>
+  <data name="player_job_restriction" xml:space="preserve">
+    <value>No has pasado el tiempo requerido en tu trabajo actual.</value>
+  </data>
+  <data name="player_has_job" xml:space="preserve">
+    <value>Ya tienes un empleo.</value>
+  </data>
+  <data name="player_no_job" xml:space="preserve">
+    <value>No tienes ningún empleo.</value>
+  </data>
+  <data name="player_no_faction" xml:space="preserve">
+    <value>No estás en ninguna facción.</value>
+  </data>
+  <data name="not_service" xml:space="preserve">
+    <value>No te encuentras de servicio.</value>
+  </data>
+  <data name="not_fastfood" xml:space="preserve">
+    <value>No eres repartidor de comida rápida.</value>
+  </data>
+  <data name="order_none" xml:space="preserve">
+    <value>No hay ningún pedido en la lista para atender.</value>
+  </data>
+  <data name="order_taken" xml:space="preserve">
+    <value>El pedido ya ha sido atendido por otra persona.</value>
+  </data>
+  <data name="order_timeout" xml:space="preserve">
+    <value>El cliente se ha cansado de esperar a su pedido.</value>
+  </data>
+  <data name="order_delivering" xml:space="preserve">
+    <value>Ya estás atendiendo un pedido.</value>
+  </data>
+  <data name="not_delivering_order" xml:space="preserve">
+    <value>No has atendido ningún pedido.</value>
+  </data>
+  <data name="deliver_in_vehicle" xml:space="preserve">
+    <value>Bájate de la moto para entregar el pedido.</value>
+  </data>
+  <data name="not_your_job_vehicle" xml:space="preserve">
+    <value>Éste no es tu vehículo de trabajo.</value>
+  </data>
+  <data name="player_too_far" xml:space="preserve">
+    <value>Estás demasiado lejos del jugador objetivo.</value>
+  </data>
+  <data name="negative_result" xml:space="preserve">
+    <value>{0} ha conseguido un resultado negativo.</value>
+  </data>
+  <data name="not_thief" xml:space="preserve">
+    <value>No eres ladrón.</value>
+  </data>
+  <data name="not_hooker" xml:space="preserve">
+    <value>No eres prostituta.</value>
+  </data>
+  <data name="already_lockpicking" xml:space="preserve">
+    <value>Ya estás forzando una cerradura.</value>
+  </data>
+  <data name="already_fucking" xml:space="preserve">
+    <value>Ya estás ejerciendo la prostitución.</value>
+  </data>
+  <data name="player_cant_lockpick_own_vehicle" xml:space="preserve">
+    <value>No puedes forzar la puerta de tu vehículo.</value>
+  </data>
+  <data name="player_cant_hotwire_own_vehicle" xml:space="preserve">
+    <value>No puedes hacer un puente en tu propio vehículo.</value>
+  </data>
+  <data name="player_cant_rob_own_house" xml:space="preserve">
+    <value>No puedes robar en tu propia casa.</value>
+  </data>
+  <data name="player_cant_rob_own_vehicle" xml:space="preserve">
+    <value>No puedes robar en tu propio vehículo.</value>
+  </data>
+  <data name="player_cooldown_thief" xml:space="preserve">
+    <value>Aún sigues nervioso por el último robo, podrás volver a robar pasada 1 hora.</value>
+  </data>
+  <data name="veh_already_unlocked" xml:space="preserve">
+    <value>Este vehículo ya está abierto.</value>
+  </data>
+  <data name="player_not_mechanic" xml:space="preserve">
+    <value>No eres mecánico.</value>
+  </data>
+  <data name="no_police_controls" xml:space="preserve">
+    <value>No hay ningún control policial guardado.</value>
+  </data>
+  <data name="player_cant_rob" xml:space="preserve">
+    <value>No hay nada que robar cerca.</value>
+  </data>
+  <data name="player_already_stealing" xml:space="preserve">
+    <value>Ya estás robando objetos.</value>
+  </data>
+  <data name="player_not_stolen_items" xml:space="preserve">
+    <value>No tienes ningún objeto robado.</value>
+  </data>
+  <data name="not_in_pawn_show" xml:space="preserve">
+    <value>No estás en ninguna tienda de empeños.</value>
+  </data>
+  <data name="player_already_hotwiring" xml:space="preserve">
+    <value>Ya estás haciendo un puente al vehículo.</value>
+  </data>
+  <data name="player_stopped_hotwire" xml:space="preserve">
+    <value>Has abandonado el vehículo y has dejado de intentar hacer el puente.</value>
+  </data>
+  <data name="engine_already_started" xml:space="preserve">
+    <value>Este vehículo ya tiene el motor encendido.</value>
+  </data>
+  <data name="engine_on" xml:space="preserve">
+    <value>Debes apagar el motor del vehículo.</value>
+  </data>
+  <data name="vehicle_not_lockable" xml:space="preserve">
+    <value>Este vehículo no se puede bloquear.</value>
+  </data>
+  <data name="player_not_car" xml:space="preserve">
+    <value>Debes estar en un coche para usar estas animaciones.</value>
+  </data>
+  <data name="player_incriminated_himself" xml:space="preserve">
+    <value>No te puedes inculpar a ti mismo.</value>
+  </data>
+  <data name="player_handcuffed_himself" xml:space="preserve">
+    <value>No te puedes esposar a ti mismo.</value>
+  </data>
+  <data name="player_fined_himself" xml:space="preserve">
+    <value>No te puedes multar a ti mismo.</value>
+  </data>
+  <data name="player_is_dead" xml:space="preserve">
+    <value>No puedes hacer eso estando inconsciente.</value>
+  </data>
+  <data name="business_locked" xml:space="preserve">
+    <value>El negocio está cerrado con llave.</value>
+  </data>
+  <data name="player_not_business_owner" xml:space="preserve">
+    <value>No eres el dueño del negocio.</value>
+  </data>
+  <data name="item_not_consumable" xml:space="preserve">
+    <value>No tienes nada consumible en la mano.</value>
+  </data>
+  <data name="no_items_trunk" xml:space="preserve">
+    <value>El maletero del vehículo está vacío.</value>
+  </data>
+  <data name="no_items_inventory" xml:space="preserve">
+    <value>No tienes ningún objeto en el inventario.</value>
+  </data>
+  <data name="no_items_near" xml:space="preserve">
+    <value>No tienes ningún objeto cerca de ti.</value>
+  </data>
+  <data name="left_hand_empty" xml:space="preserve">
+    <value>No tienes ningún objeto en tu mano izquierda.</value>
+  </data>
+  <data name="right_hand_empty" xml:space="preserve">
+    <value>No tienes ningún objeto en tu mano derecha.</value>
+  </data>
+  <data name="left_hand_occupied" xml:space="preserve">
+    <value>Ya tienes un objeto en tu mano izquierda.</value>
+  </data>
+  <data name="right_hand_occupied" xml:space="preserve">
+    <value>Ya tienes un objeto en tu mano derecha.</value>
+  </data>
+  <data name="both_hand_occupied" xml:space="preserve">
+    <value>Ya tienes un objeto en tus manos.</value>
+  </data>
+  <data name="target_right_hand_not_empty" xml:space="preserve">
+    <value>El jugador objetivo tiene la mano derecha ocupada.</value>
+  </data>
+  <data name="player_not_veh_owner" xml:space="preserve">
+    <value>No tienes llaves de este vehículo.</value>
+  </data>
+  <data name="not_in_route" xml:space="preserve">
+    <value>No estás haciendo ninguna ruta de trabajo.</value>
+  </data>
+  <data name="already_in_route" xml:space="preserve">
+    <value>Estás en mitad de una ruta de trabajo.</value>
+  </data>
+  <data name="player_not_garbage" xml:space="preserve">
+    <value>No eres basurero.</value>
+  </data>
+  <data name="garbage_in_vehicle" xml:space="preserve">
+    <value>No puedes recoger basura desde el vehículo.</value>
+  </data>
+  <data name="not_garbage_near" xml:space="preserve">
+    <value>No tienes ninguna bolsa de basura cerca.</value>
+  </data>
+  <data name="already_garbage" xml:space="preserve">
+    <value>Ya estás recogiendo la basura.</value>
+  </data>
+  <data name="player_not_in_news_van" xml:space="preserve">
+    <value>Debes estar en la parte de atras izquierda de la furgoneta de retransmisión de Weazel News.</value>
+  </data>
+  <data name="player_not_jail_area" xml:space="preserve">
+    <value>No estás en la entrada de los calabozos.</value>
+  </data>
+  <data name="player_searched_himself" xml:space="preserve">
+    <value>No puedes cachearte a ti mismo.</value>
+  </data>
+  <data name="not_parking_near" xml:space="preserve">
+    <value>No estás cerca de ningún estacionamiento.</value>
+  </data>
+  <data name="vehicle_faction_park" xml:space="preserve">
+    <value>No puedes aparcar este vehículo.</value>
+  </data>
+  <data name="parking_full" xml:space="preserve">
+    <value>No caben más vehículos en este aparcamiento.</value>
+  </data>
+  <data name="player_not_garage_access" xml:space="preserve">
+    <value>No tienes acceso a este garaje.</value>
+  </data>
+  <data name="not_parking_allowed" xml:space="preserve">
+    <value>No puedes aparcar tu vehículo aquí.</value>
+  </data>
+  <data name="vehicle_not_this_parking" xml:space="preserve">
+    <value>El vehículo no está aparcado aquí.</value>
+  </data>
+  <data name="not_in_vehicle_type_car" xml:space="preserve">
+    <value>Debes estar dentro de un coche.</value>
+  </data>
+  <data name="hooker_offered_himself" xml:space="preserve">
+    <value>No puedes ofrecerte un servicio a ti mismo.</value>
+  </data>
+  <data name="no_service_offered" xml:space="preserve">
+    <value>Nadie te ha ofrecido un servicio sexual.</value>
+  </data>
+  <data name="not_house_near" xml:space="preserve">
+    <value>No hay ninguna casa cerca de ti.</value>
+  </data>
+  <data name="house_interior_modify" xml:space="preserve">
+    <value>El valor de interior debe estar entre 0 y {0}.</value>
+  </data>
+  <data name="house_price_modify" xml:space="preserve">
+    <value>El precio de la casa debe ser superior a 0$.</value>
+  </data>
+  <data name="house_status_modify" xml:space="preserve">
+    <value>El estado de la casa tiene que estar entre 0 y 2.</value>
+  </data>
+  <data name="house_rental_modify" xml:space="preserve">
+    <value>El precio de alquiler de la casa debe ser superior a 0$.</value>
+  </data>
+  <data name="player_not_enough_money" xml:space="preserve">
+    <value>No llevas suficiente dinero encima.</value>
+  </data>
+  <data name="mps_only_admin" xml:space="preserve">
+    <value>Los mensajes privados sólo se pueden usar con miembros del staff.</value>
+  </data>
+  <data name="vehicle_not_exists" xml:space="preserve">
+    <value>No se ha encontrado ningún vehículo para ese identificador.</value>
+  </data>
+  <data name="player_keys_full" xml:space="preserve">
+    <value>El jugador tiene demasiados vehículos prestados.</value>
+  </data>
+  <data name="player_not_in_right_rear" xml:space="preserve">
+    <value>Debes estar en la parte de atras derecha de la furgoneta.</value>
+  </data>
+  <data name="no_walkie_in_hand" xml:space="preserve">
+    <value>No tienes ningún equipo de retransmisión en la mano.</value>
+  </data>
+  <data name="already_owned_channel" xml:space="preserve">
+    <value>Ya tienes creado un canal de radio.</value>
+  </data>
+  <data name="not_owned_channel" xml:space="preserve">
+    <value>No tienes creado ningún canal de radio.</value>
+  </data>
+  <data name="channel_not_found" xml:space="preserve">
+    <value>No te has podido conectar al canal de radiofrecuencia.</value>
+  </data>
+  <data name="no_blood_left" xml:space="preserve">
+    <value>No queda ninguna unidad de sangre.</value>
+  </data>
+  <data name="player_not_on_duty" xml:space="preserve">
+    <value>No estás de servicio ahora mismo.</value>
+  </data>
+  <data name="player_not_on_admin_duty" xml:space="preserve">
+    <value>No estás de servicio como staff.</value>
+  </data>
+  <data name="business_clothes_not_available" xml:space="preserve">
+    <value>No hay ninguna unidad a la venta.</value>
+  </data>
+  <data name="no_clothes_in_wardrobe" xml:space="preserve">
+    <value>No hay ninguna prenda en el armario.</value>
+  </data>
+  <data name="player_not_hurt" xml:space="preserve">
+    <value>El jugador objetivo no está herido.</value>
+  </data>
+  <data name="no_telephone_hand" xml:space="preserve">
+    <value>No tienes el teléfono en la mano.</value>
+  </data>
+  <data name="player_not_called" xml:space="preserve">
+    <value>No hay nadie llamándote en este momento.</value>
+  </data>
+  <data name="already_phone_talking" xml:space="preserve">
+    <value>Estás en medio de una llamada telefónica.</value>
+  </data>
+  <data name="not_phone_talking" xml:space="preserve">
+    <value>No estás haciendo ninguna llamada telefónica.</value>
+  </data>
+  <data name="faction_not_enough_money" xml:space="preserve">
+    <value>No hay suficiente dinero en el arca de facción.</value>
+  </data>
+  <data name="contact_list_empty" xml:space="preserve">
+    <value>No tienes ningún contacto en la agenda.</value>
+  </data>
+  <data name="player_not_driving_school" xml:space="preserve">
+    <value>No estás en la autoescuela.</value>
+  </data>
+  <data name="vehicle_driving_not_suitable" xml:space="preserve">
+    <value>Este vehículo no es adecuado para tu licencia.</value>
+  </data>
+  <data name="not_testing_vehicle" xml:space="preserve">
+    <value>No estás autorizado a probar este vehículo.</value>
+  </data>
+  <data name="driving_school_money" xml:space="preserve">
+    <value>Necesitas {0}$ para presentarte al examen.</value>
+  </data>
+  <data name="player_already_license" xml:space="preserve">
+    <value>Tu licencia aún está vigente.</value>
+  </data>
+  <data name="player_not_townhall" xml:space="preserve">
+    <value>No estás en el ayuntamiento.</value>
+  </data>
+  <data name="on_air" xml:space="preserve">
+    <value>El jugador objetivo ya está participando en una entrevista.</value>
+  </data>
+  <data name="not_on_air" xml:space="preserve">
+    <value>El jugador objetivo no está participando en una entrevista.</value>
+  </data>
+  <data name="wheel_not_popped" xml:space="preserve">
+    <value>Esta rueda no necesita ser reparada.</value>
+  </data>
+  <data name="player_not_in_room_lockers" xml:space="preserve">
+    <value>No estás en los vestuarios de comisaria.</value>
+  </data>
+  <data name="player_not_enough_police_rank" xml:space="preserve">
+    <value>No tienes suficiente rango dentro de LSPD para retirar munición ni armas.</value>
+  </data>
+  <data name="job_vehicle_abandoned" xml:space="preserve">
+    <value>Se ha cancelado tu entrega por abandonar el vehículo de trabajo.</value>
+  </data>
+  <data name="rank_too_low_recruit" xml:space="preserve">
+    <value>No tienes el rango necesario para reclutar nuevos miembros.</value>
+  </data>
+  <data name="rank_too_low_dismiss" xml:space="preserve">
+    <value>No tienes el rango necesario para expulsar miembros.</value>
+  </data>
+  <data name="rank_too_low_rank" xml:space="preserve">
+    <value>No tienes el rango necesario para cambiar el rango de los miembros.</value>
+  </data>
+  <data name="player_already_faction" xml:space="preserve">
+    <value>El jugador objetivo ya pertenece a una facción.</value>
+  </data>
+  <data name="player_not_in_same_faction" xml:space="preserve">
+    <value>El jugador objetivo no se encuentra en tu facción.</value>
+  </data>
+  <data name="player_already_job" xml:space="preserve">
+    <value>El jugador objetivo ya tiene un trabajo.</value>
+  </data>
+  <data name="player_undocumented" xml:space="preserve">
+    <value>No tienes documentación, recuerda que es ilegal ir indocumentado.</value>
+  </data>
+  <data name="no_repair_offered" xml:space="preserve">
+    <value>No te han ofrecido una reparación.</value>
+  </data>
+  <data name="no_repaint_offered" xml:space="preserve">
+    <value>No te han ofrecido repintar tu vehículo.</value>
+  </data>
+  <data name="cant_toogle_engine_while_fucking" xml:space="preserve">
+    <value>No puedes arrancar mientras tienes sexo con una prostituta.</value>
+  </data>
+  <data name="cant_send_multiple_help_requests" xml:space="preserve">
+    <value>Debes esperar antes de volver a enviar una duda.</value>
+  </data>
+  <data name="no_admins_on_duty_atm" xml:space="preserve">
+    <value>No hay miembros del staff disponibles en este momento, vuelve a intentarlo en un rato por favor.</value>
+  </data>
+  <data name="admin_ticket_not_found" xml:space="preserve">
+    <value>No se ha encontrado ninguna duda con ese identificador.</value>
+  </data>
+  <data name="not_fuel_station_near" xml:space="preserve">
+    <value>No estás en ninguna gasolinera.</value>
+  </data>
+  <data name="player_refueling" xml:space="preserve">
+    <value>Ya estás repostando un vehículo.</value>
+  </data>
+  <data name="vehicle_refueling" xml:space="preserve">
+    <value>El vehículo ya está siendo repostado.</value>
+  </data>
+  <data name="vehicle_start_refueling" xml:space="preserve">
+    <value>No puedes arrancar el vehículo mientras está repostando.</value>
+  </data>
+  <data name="vehicle_start_weapon_unpacking" xml:space="preserve">
+    <value>No puedes arrancar el vehículo mientras están sacando armas.</value>
+  </data>
+  <data name="vehicle_not_megaphone" xml:space="preserve">
+    <value>Éste vehículo no tiene un megáfono instalado.</value>
+  </data>
+  <data name="faction_warning_not_found" xml:space="preserve">
+    <value>No se ha encontrado el aviso seleccionado.</value>
+  </data>
+  <data name="faction_warning_taken" xml:space="preserve">
+    <value>El aviso seleccionado ya está siendo atendido.</value>
+  </data>
+  <data name="player_have_faction_warning" xml:space="preserve">
+    <value>Ya está atendiendo un aviso.</value>
+  </data>
+  <data name="player_spectating" xml:space="preserve">
+    <value>El jugador está reconeando a otro jugador.</value>
+  </data>
+  <data name="cant_spect_self" xml:space="preserve">
+    <value>No puedes reconearte a ti mismo.</value>
+  </data>
+  <data name="not_spectating" xml:space="preserve">
+    <value>No estás reconeando a nadie.</value>
+  </data>
+  <data name="mask_equiped" xml:space="preserve">
+    <value>Ya llevas una máscara equipada.</value>
+  </data>
+  <data name="no_mask_equiped" xml:space="preserve">
+    <value>No llevas ninguna máscara equipada.</value>
+  </data>
+  <data name="no_mask_bought" xml:space="preserve">
+    <value>No has comprado ninguna máscara.</value>
+  </data>
+  <data name="bag_equiped" xml:space="preserve">
+    <value>Ya llevas una bolsa equipada.</value>
+  </data>
+  <data name="no_bag_equiped" xml:space="preserve">
+    <value>No llevas ninguna bolsa equipada.</value>
+  </data>
+  <data name="no_bag_bought" xml:space="preserve">
+    <value>No has comprado ninguna bolsa.</value>
+  </data>
+  <data name="accessory_equiped" xml:space="preserve">
+    <value>Ya llevas un accesorio equipado.</value>
+  </data>
+  <data name="no_accessory_equiped" xml:space="preserve">
+    <value>No llevas ningún accesorio equipado.</value>
+  </data>
+  <data name="no_accessory_bought" xml:space="preserve">
+    <value>No has comprado ningún accesorio.</value>
+  </data>
+  <data name="hat_equiped" xml:space="preserve">
+    <value>Ya llevas un sombrero equipado.</value>
+  </data>
+  <data name="no_hat_equiped" xml:space="preserve">
+    <value>No llevas ningún sombrero equipado.</value>
+  </data>
+  <data name="no_hat_bought" xml:space="preserve">
+    <value>No has comprado ningún sombrero.</value>
+  </data>
+  <data name="glasses_equiped" xml:space="preserve">
+    <value>Ya llevas unas gafas equipadas.</value>
+  </data>
+  <data name="no_glasses_equiped" xml:space="preserve">
+    <value>No llevas ningunas gafas equipadas.</value>
+  </data>
+  <data name="no_glasses_bought" xml:space="preserve">
+    <value>No has comprado ningunas gafas.</value>
+  </data>
+  <data name="ear_equiped" xml:space="preserve">
+    <value>Ya llevas unos pendientes equipados.</value>
+  </data>
+  <data name="no_ear_equiped" xml:space="preserve">
+    <value>No llevas ningunos pendientes equipados.</value>
+  </data>
+  <data name="no_ear_bought" xml:space="preserve">
+    <value>No has comprado ningunos pendientes.</value>
+  </data>
+  <data name="player_not_thief_area" xml:space="preserve">
+    <value>No estás en el centro de la ciudad.</value>
+  </data>
+  <data name="stealing_progress" xml:space="preserve">
+    <value>No puedes salir mientras estás robando.</value>
+  </data>
+  <data name="not_scrapyard_near" xml:space="preserve">
+    <value>No estás en el desguace municipal.</value>
+  </data>
+  <data name="parking_not_garage" xml:space="preserve">
+    <value>Sólo puedes asignar una casa a un garaje privado.</value>
+  </data>
+  <data name="not_house_business" xml:space="preserve">
+    <value>No estás en la puerta de ninguna casa ni negocio.</value>
+  </data>
+  <data name="weapon_event_on_course" xml:space="preserve">
+    <value>Ya se ha lanzado un evento de armas.</value>
+  </data>
+  <data name="player_no_jerrycan" xml:space="preserve">
+    <value>No llevas ninguna lata de gasolina en la mano.</value>
+  </data>
+  <data name="not_police_chief" xml:space="preserve">
+    <value>No eres el comisario del departamento policial.</value>
+  </data>
+  <data name="player_cant_self" xml:space="preserve">
+    <value>El jugador objetivo no puedes ser tú mismo.</value>
+  </data>
+  <data name="not_valid_repair_place" xml:space="preserve">
+    <value>No estás en ningún taller ni tienes una grúa cerca.</value>
+  </data>
+  <data name="wanted_vehicle_far" xml:space="preserve">
+    <value>El vehículo está demasiado lejos.</value>
+  </data>
+  <data name="not_required_products" xml:space="preserve">
+    <value>Necesitas {0} productos para llevar a cabo la acción.</value>
+  </data>
+  <data name="not_in_mechanic_workshop" xml:space="preserve">
+    <value>No estás en ningún taller.</value>
+  </data>
+  <data name="employee_cooldown" xml:space="preserve">
+    <value>Necesitas cumplir {0} pagas más hasta poder dejar el empleo.</value>
+  </data>
+  <data name="player_inside_vehicle" xml:space="preserve">
+    <value>No puedes hacer esto desde dentro del vehículo</value>
+  </data>
+  <data name="haircut_money" xml:space="preserve">
+    <value>Necesitas tener al menos {0}$ para cambiar tu look.</value>
+  </data>
+  <data name="tattoo_duplicated" xml:space="preserve">
+    <value>Ya tienes un tatuaje igual.</value>
+  </data>
+  <data name="vehicle_trunk_opened" xml:space="preserve">
+    <value>El maletero del vehículo está abierto.</value>
+  </data>
+  <data name="vehicle_trunk_closed" xml:space="preserve">
+    <value>El maletero del vehículo está cerrado.</value>
+  </data>
+  <data name="vehicle_trunk_in_use" xml:space="preserve">
+    <value>Ya hay alguien usando el maletero del vehículo.</value>
+  </data>
+  <data name="parking_not_money" xml:space="preserve">
+    <value>Necesitas {0}$ para sacar el vehículo del aparcamiento.</value>
+  </data>
+  <data name="player_not_rod_boat" xml:space="preserve">
+    <value>No tienes una caña en la mano ni estás en ningún pesquero.</value>
+  </data>
+  <data name="not_fishing_boat" xml:space="preserve">
+    <value>Este vehículo no es un barco pesquero.</value>
+  </data>
+  <data name="player_not_fisherman" xml:space="preserve">
+    <value>No eres pescador.</value>
+  </data>
+  <data name="not_fishing_zone" xml:space="preserve">
+    <value>No estás en ninguna zona de pesca.</value>
+  </data>
+  <data name="no_fishing_rod" xml:space="preserve">
+    <value>No tienes una caña en la mano derecha.</value>
+  </data>
+  <data name="player_no_baits" xml:space="preserve">
+    <value>No tienes nada que usar como cebo.</value>
+  </data>
+  <data name="not_fishing_business" xml:space="preserve">
+    <value>No estás en ninguna tienda de pesca.</value>
+  </data>
+  <data name="fishing_canceled" xml:space="preserve">
+    <value>Has tirado de la caña demasiado pronto.</value>
+  </data>
+  <data name="fishing_failed" xml:space="preserve">
+    <value>El pez se ha escapado del anzuelo.</value>
+  </data>
+  <data name="player_already_fishing" xml:space="preserve">
+    <value>Ya estás pescando.</value>
+  </data>
+  <data name="no_fish_sellable" xml:space="preserve">
+    <value>No tienes pescado para vender.</value>
+  </data>
+  <data name="weather_value_invalid" xml:space="preserve">
+    <value>El clima debe estar comprendido entre 0 y 14.</value>
+  </data>
+  <data name="bank_not_enough_money" xml:space="preserve">
+    <value>La cuenta no dispone de la cantidad requerida.</value>
+  </data>
+  <data name="transfer_money_own" xml:space="preserve">
+    <value>No puedes realizar una transferencia a tu propia cuenta.</value>
+  </data>
+  <data name="bank_account_not_found" xml:space="preserve">
+    <value>La persona destinataria no tiene ninguna cuenta bancaria.</value>
+  </data>
+  <data name="bank_general_error" xml:space="preserve">
+    <value>Ha habido un fallo al procesar la transacción.</value>
+  </data>
+  <data name="low_blood" xml:space="preserve">
+    <value>Tienes muy poca sangre como para recibir una extracción.</value>
+  </data>
+  <data name="not_trucker" xml:space="preserve">
+    <value>No eres transportista.</value>
+  </data>
+  <data name="no_taxi_driver" xml:space="preserve">
+    <value>El taxista no puede seleccionar ninguna ruta.</value>
+  </data>
+  <data name="player_not_taxi_license" xml:space="preserve">
+    <value>No tienes la licencia de taxi en regla.</value>
+  </data>
+  <data name="taxi_has_path" xml:space="preserve">
+    <value>El taxista ya está realizando una ruta.</value>
+  </data>
+  <data name="player_not_own_death" xml:space="preserve">
+    <value>No puedes atenderte a ti mismo.</value>
+  </data>
+  <data name="vehicle_tank_full" xml:space="preserve">
+    <value>El depósito del vehículo está lleno.</value>
+  </data>
+  <data name="vehicle_refuel_into_vehicle" xml:space="preserve">
+    <value>Debes salir del vehículo para repostar.</value>
+  </data>
+  <data name="player_owns_clothes" xml:space="preserve">
+    <value>Ya tienes esa prenda en tu armario.</value>
+  </data>
+  <data name="not_in_house_door" xml:space="preserve">
+    <value>No estás en la puerta de tu casa.</value>
+  </data>
+  <data name="not_rented_house" xml:space="preserve">
+    <value>No estás alquilado en ninguna casa.</value>
+  </data>
+  <data name="not_emergency_vehicle" xml:space="preserve">
+    <value>No estás en un vehículo de emergencias.</value>
+  </data>
+  <data name="not_in_work_place" xml:space="preserve">
+    <value>No estás en tu zona de trabajo.</value>
+  </data>
+  <data name="vehicle_is_trailered" xml:space="preserve">
+    <value>El vehículo está siendo remolcado.</value>
+  </data>
+  <data name="cant_sell_vehicle_self" xml:space="preserve">
+    <value>No puedes venderte el vehículo a ti mismo.</value>
+  </data>
+  <data name="already_testing_vehicle" xml:space="preserve">
+    <value>Entrega el vehículo de prueba antes de pedir otro.</value>
+  </data>
+</root>
